@@ -1,0 +1,27 @@
+import java.util.*;
+class Main
+{
+    public static void main(String args[])
+    {
+        subClass sc=new subClass();
+        sc.disp();
+    }
+}
+class subClass
+{
+    String msg="Hello Welcome to Classes";
+    void disp()
+    {
+        System.out.println(msg);
+        subClass1 sc1=new subClass1();
+        sc1.disp();
+    }
+}
+class subClass1
+{
+    String msg="In sub class 1";
+    void disp()
+    {
+        System.out.println(msg);
+    }
+}
