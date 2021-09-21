@@ -1,0 +1,17 @@
+public class Main
+{
+    Sample(){
+        this("Java");
+        System.out.println("Default Constructor");
+    }
+    Sample(String str){
+        System.out.println("One argument Constructor"+str);
+    }
+}
+class Sample
+{
+    public static void main(String []args)
+    {
+        Sample a1=new Sample();
+    }
+}
